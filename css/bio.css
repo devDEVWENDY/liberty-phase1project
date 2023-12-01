@@ -13,6 +13,11 @@ body {
     background-color: #f4f4f4;
 }
 
+#center-page {
+    max-width: 500px;
+    margin: auto;
+}
+
 header {
     text-align: center;
     margin-bottom: 20px;
@@ -34,6 +39,10 @@ h1 {
 .bio, .projects {
     margin-bottom: 20px;
 
+}
+
+.bio > p {
+    padding-bottom: 15px;
 }
 
 a {
